@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>예제2</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-white">
+    <section class="max-w-6xl mx-auto px-6 py-16">
+      <div class="mb-10">
+        <p class="text-green-600 font-semibold mb-2">Popular Vegan Types</p>
+        <h2 class="text-3xl font-bold text-stone-900">비건 음식 종류</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <article class="bg-stone-50 rounded-2xl overflow-hidden shadow-sm">
+          <img
+            src="https://images.unsplash.com/photo-1543332164-6e82f355badc?auto=format&fit=crop&w=900&q=80"
+            alt="샐러드볼"
+            class="w-full h-52 object-cover"
+          />
+          <div class="p-5">
+            <h3 class="text-xl font-semibold mb-2">샐러드 볼</h3>
+            <p class="text-stone-600">
+              채소, 곡물, 견과류를 균형 있게 담은 대표 메뉴
+            </p>
+          </div>
+        </article>
+
+        <article class="bg-stone-50 rounded-2xl overflow-hidden shadow-sm">
+          <img
+            src="https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80"
+            alt="두부 스테이크"
+            class="w-full h-52 object-cover"
+          />
+          <div class="p-5">
+            <h3 class="text-xl font-semibold mb-2">두부 스테이크</h3>
+            <p class="text-stone-600">
+              고기 대신 두부로 식감과 단백질을 살린 메뉴
+            </p>
+          </div>
+        </article>
+
+        <article class="bg-stone-50 rounded-2xl overflow-hidden shadow-sm">
+          <img
+            src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80"
+            alt="비건 파스타"
+            class="w-full h-52 object-cover"
+          />
+          <div class="p-5">
+            <h3 class="text-xl font-semibold mb-2">비건 파스타</h3>
+            <p class="text-stone-600">
+              유제품 없이도 충분히 풍미 있게 즐길 수 있는 요리
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </body>
+</html>
